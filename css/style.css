@@ -35,7 +35,6 @@ img {
     padding: 50px;
     width: 100%;
     height: calc(100vh - 120px);
-    /* debug */
     background-color: black;
     overflow: scroll;
     overflow-x: hidden;
@@ -82,4 +81,59 @@ img {
         width: 100%;
         height: 120px;
         background-color: #222222;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .flex-footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-btn {
+        position: relative;
+        color: white;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .container-btn2 {
+        position: relative;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+    }
+
+    .icons {
+        padding: 10px;
+        font-size: 2rem;
+    }
+
+    .mic-video {
+
+    }
+
+    .options-green {
+        color: green;
+    }
+
+    .close-call {
+        color: red;
+        background-color: darkgray;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100%;
+        padding: 0 20px;
+        text-align: center;
+        line-height: 120px;
     }
